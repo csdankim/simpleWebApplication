@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="quiz.js"></script>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="column left">
+        <div class="Query">
+          <header>Query: {<span id="query"></span>}</header>
+        </div>
+        <div id="quiz1"></div>
+        <div id="quiz2"></div>
+        <div class="buttonBox">
+          <button class="button" onclick="checkAnswer()">Submit</button>
+          <button class="button" onclick="reLoad()">Skip</button>
+        </div>
+      </div>
+      <div class="column right">
+        <div class="name">Name: <span id="name"></span></div>
+        <div class="description">
+          <header>Description:</header>
+        </div>
+        <div class="text">
+          <p id="description"></p>
+        </div>
+      </div>
+      <div class="column side">
+        <span id="poster"></span>.    
+      </div>
+    </div>
+  </body>
+</html>

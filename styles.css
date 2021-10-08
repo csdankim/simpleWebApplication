@@ -1,0 +1,94 @@
+
+
+.column {
+  float:left;
+  height: 100%;
+}
+
+.left {
+  width: 48%;
+  margin-right: 30px;
+  border: 0.2px solid rgb(240, 238, 238);
+}
+
+.right {
+  width:32%;
+  margin-right: 20px;
+}
+.side {
+  width: 15%;
+  padding-left: 0px;
+}
+
+.buttonBox {
+  background-color: rgb(233, 231, 231);
+  border: 0.2px solid rgb(233, 231, 231);
+  height: 6%;
+  position:fixed;
+  bottom: 5;
+  width:47.5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button {
+  /* float:right; */
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  padding: 6px;
+  color: white;
+  background-color: rgb(68, 67, 68);
+}
+
+.query {
+  font-size:xx-large;
+  margin: 20px;
+}
+
+h3 {
+  border: 1px solid rgb(182, 181, 181);
+  padding: 10px;
+  margin: 20px;
+
+}
+.name {
+  color: blue;
+  font-size:x-large;
+  font-weight:bold;
+  border: 1px solid rgb(182, 181, 181);
+  width:fit-content;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+#name {
+  color:black;
+  font-size:large;
+  font-weight:normal;
+}
+
+.description {
+  color: blue;
+  font-size:x-large;
+  font-weight:bold;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+label {
+  margin-left: 25px;
+}
+
+img {
+  margin-top:20px;
+}
